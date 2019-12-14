@@ -25,6 +25,10 @@ class MainActivity : AppCompatActivity() {
 
     private fun rollDice() {
 
+        /*
+        * Github test
+        * */
+
         val randomInt = java.util.Random().nextInt(6) + 1
         val drawableResource = when (randomInt) {
           1 -> R.drawable.dice_1
